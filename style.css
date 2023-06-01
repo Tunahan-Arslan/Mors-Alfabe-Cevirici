@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+body{
+    background-color: gray;
+}
+button{
+    margin: 5px;
+    background-color: black;
+    color: rgb(0, 167, 0);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+button:hover{
+    background-color: rgb(30, 28, 28);
+}
+button:active{
+    transform: scale(0.9);
+}
+input[type="text"]{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+textarea{
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+div{
+    text-align: center;
+}

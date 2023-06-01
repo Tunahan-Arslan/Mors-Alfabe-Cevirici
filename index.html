@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Mors Alfabe Çevirici</h2>
+    <br>
+    <div>
+        <button onclick="yaziyiMorsaMenu()">Yazı → Mors</button>
+    </div>
+    <div id="yaziyiMorsa">
+        <label>Mesajınızı Yazın:</label>
+        <input type="text" id="turkceYazi">
+        <br>
+    </div>
+    <br>
+    <button onclick="hesapla()">Dönüştür</button>
+    <button onclick="window.location.reload()">Sıfırla</button>
+    <br>
+    <br>
+<textarea id="sonuc" cols="50" rows="10" style="resize: none;" disabled></textarea>
+
+
+
+    <script src="code.js"></script>
+</body>
+</html>
